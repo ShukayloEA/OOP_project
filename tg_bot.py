@@ -47,8 +47,8 @@ def handle_change_photo(message):
 
 
 
-    os.remove('c:/Users/Aila/OOP project/'+str(raw+".jpg"))
-    os.remove('c:/Users/Aila/OOP project/'+str(raw+"1.jpg"))
+    os.remove('c:/Users/Aila/OOP project/OOP_project/'+str(raw+".jpg"))
+    os.remove('c:/Users/Aila/OOP project/OOP_project/'+str(raw+"1.jpg"))
 
 
 bot.infinity_polling()

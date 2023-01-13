@@ -25,11 +25,3 @@ def segmentation(input, output):
 #    plt.show()
 
     matplotlib.image.imsave(output, image_output)
-#    cv2.imwrite(output, image_output)
-#    image_output = cv2.resize(image_output, (w, h))
-#    print("after resize")
-#    with open(output,'wb') as new_file:
-#            new_file.write(image_output)
-
-
-segmentation("C:\\Users\\Aila\\OOP project\\data\\test\\0ce66b539f52_01.jpg", "C:\\Users\\Aila\\OOP project\\data\\test\\0ce66b539f52_01_1.jpg")
