@@ -4,12 +4,14 @@ import cv2
 import pandas as pd
 
 import keras
+from keras.applications.resnet import ResNet50
+from keras.applications.vgg16 import VGG16
 from keras.models import Model, load_model
 
 import matplotlib.image
 
 def segmentation(input, output):
-    model = keras.models.load_model("my_model_v10.h5")
+    model = keras.models.load_model("my_model_v11")
 
     image = cv2.imread(input)
     
